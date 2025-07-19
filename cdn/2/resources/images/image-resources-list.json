@@ -1,0 +1,30 @@
+{
+  "1752763712666": {
+    "originalName": "Obuasi-Gold-Mine-607x375.webp",
+    "fileName": "1752763712666.webp",
+    "size": 72052,
+    "url": "${appResourceUrl}/images/widget_6/1752763712666.webp",
+    "created": 1752763712666,
+    "resourcesPrefix": "images/widget_6",
+    "referredIds": [],
+    "originId": "1752763712666",
+    "fileFormat": "image/webp",
+    "isUseCompress": false,
+    "originalWidth": 607,
+    "originalHeight": 375
+  },
+  "1752773295866": {
+    "originalName": "epa-removebg-preview.png",
+    "fileName": "1752773295866.png",
+    "size": 67147,
+    "url": "${appResourceUrl}/images/widget_10/1752773295866.png",
+    "created": 1752773295866,
+    "resourcesPrefix": "images/widget_10",
+    "referredIds": [],
+    "originId": "1752773295866",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 220,
+    "originalHeight": 229
+  }
+}

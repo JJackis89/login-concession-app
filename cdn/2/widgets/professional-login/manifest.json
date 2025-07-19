@@ -1,0 +1,41 @@
+{
+  "name": "professional-login",
+  "label": "Professional Login",
+  "type": "widget",
+  "version": "1.17.0",
+  "exbVersion": "1.17.0",
+  "author": "Custom Developer",
+  "description": "A professional login widget with Supabase authentication support, custom branding, and modern UI design. Supports real user registration, password reset, and secure authentication with fallback to mock mode for development.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasSettingPage": true,
+    "hasSettingUIPage": true,
+    "supportInlineEditing": false,
+    "supportRepeat": false,
+    "hasConfig": false
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 400,
+    "height": 300
+  },
+  "supportedThemes": [
+    "default",
+    "dark"
+  ],
+  "defaultConfig": {
+    "portalUrl": "",
+    "showUserInfo": true,
+    "enableAutoSignIn": false,
+    "companyLogo": "",
+    "welcomeMessage": "Welcome to our GIS Portal",
+    "customTheme": {
+      "primaryColor": "#0079c1",
+      "backgroundColor": "#ffffff",
+      "textColor": "#323232"
+    }
+  }
+}

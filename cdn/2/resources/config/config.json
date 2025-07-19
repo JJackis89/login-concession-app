@@ -1,0 +1,323 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page",
+      "footer": false
+    },
+    "page_2": {
+      "id": "page_2",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_3"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "Main App",
+      "header": false,
+      "footer": true
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {
+            "left": "0.6%",
+            "right": "0.6%",
+            "top": "0.9%",
+            "bottom": "0.9%",
+            "width": "98.8%",
+            "height": "98.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "left": "38.8%",
+            "right": "31.4%",
+            "top": "9.4%",
+            "bottom": "2.9%",
+            "width": "29.8%",
+            "height": "87.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_2": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_12",
+          "bbox": {
+            "left": "0.6%",
+            "right": "94.7%",
+            "top": "12.7%",
+            "bottom": "11.3%",
+            "width": "4.7%",
+            "height": "76.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_13",
+          "bbox": {
+            "left": "93.8%",
+            "right": "1.5%",
+            "top": "13.0%",
+            "bottom": "11.0%",
+            "width": "4.7%",
+            "height": "76.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_14",
+          "bbox": {
+            "left": "35.5%",
+            "right": "36.4%",
+            "top": "28.0%",
+            "bottom": "10.7%",
+            "width": "28.1%",
+            "height": "61.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_3": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    }
+  },
+  "exbVersion": "1.17.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_8": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Image",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_6/1752763712666.webp",
+            "originalUrl": "${appResourceUrl}/images/widget_6/1752763712666.webp",
+            "fileName": "1752763712666.webp",
+            "originalName": "Obuasi-Gold-Mine-607x375.webp",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/webp",
+            "originalId": "1752763712666",
+            "isUseCompress": false,
+            "originalWidth": 607,
+            "originalHeight": 375
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_8"
+    },
+    "widget_9": {
+      "uri": "widgets/professional-login/",
+      "version": "1.17.0",
+      "label": "Professional Login",
+      "config": null,
+      "id": "widget_9",
+      "style": {
+        "background": {
+          "color": "rgba(0,0,0,0)",
+          "fillType": "fill",
+          "image": {}
+        }
+      }
+    },
+    "widget_12": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Image 4",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_10/1752773295866.png",
+            "originalUrl": "${appResourceUrl}/images/widget_10/1752773295866.png",
+            "fileName": "1752773295866.png",
+            "originalName": "epa-removebg-preview.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1752773295866",
+            "isUseCompress": false,
+            "originalWidth": 220,
+            "originalHeight": 229
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_12"
+    },
+    "widget_13": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Image 5",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_10/1752773295866.png",
+            "originalUrl": "${appResourceUrl}/images/widget_10/1752773295866.png",
+            "fileName": "1752773295866.png",
+            "originalName": "epa-removebg-preview.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1752773295866",
+            "isUseCompress": false,
+            "originalWidth": 220,
+            "originalHeight": 229
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_13"
+    },
+    "widget_14": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">﻿DEVELOPED BY THE GIS DEPARTMENT, EPA</strong></p><p style=\"text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">2025</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_14"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://jaivgeo.maps.arcgis.com"
+  },
+  "sharedThemeVariables": null,
+  "dataSources": {},
+  "originExbVersion": "1.17.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    },
+    {
+      "page_2": []
+    }
+  ],
+  "footer": {
+    "layout": {
+      "LARGE": "layout_2"
+    },
+    "height": {
+      "LARGE": 75
+    },
+    "backgroundColor": "var(--success-900)"
+  },
+  "timestamp": 1752777923300
+}
